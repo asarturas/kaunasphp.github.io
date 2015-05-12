@@ -1,6 +1,6 @@
 ---
 layout: post
-name:  "KaunasPHP v.22"
+name:  "KaunasPHP v.21"
 time: "19:00"
 event_url: "https://www.facebook.com/events/795304113861199/"
 ---

@@ -1,0 +1,18 @@
+---
+layout: post
+name:  "KaunasPHP v.22"
+time: "19:00"
+event_url: "https://www.facebook.com/events/1573303359568981/"
+---
+<ul>
+  <li>Behat Layered Cake: Speed up Behat tests with a clever use of the layered architecture
+    <ul><li>
+      Marek Matulka
+    </li></ul>
+  </li>
+  <li>Atom Feeds
+    <ul><li>
+      Gregory Young
+    </li></ul>
+  </li>
+</ul>

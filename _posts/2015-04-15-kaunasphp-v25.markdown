@@ -1,0 +1,18 @@
+---
+layout: post
+name:  "KaunasPHP v.25"
+time: "19:00"
+event_url: "https://www.facebook.com/events/372472912954778/"
+---
+<ul>
+  <li>Trending Web Technologies
+    <ul><li>
+      Gediminas Morkevicius
+    </li></ul>
+  </li>
+  <li>dc.js
+    <ul><li>
+      Povilas Poderskis
+    </li></ul>
+  </li>
+</ul>

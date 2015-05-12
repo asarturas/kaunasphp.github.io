@@ -1,0 +1,18 @@
+---
+layout: post
+name:  "KaunasPHP v.24"
+time: "19:00"
+event_url: "https://www.facebook.com/events/1656688004567243/"
+---
+<ul>
+  <li>Intensyvių srautų apdorojimas ir saugojimas
+    <ul><li>
+      Justas Butkus
+    </li></ul>
+  </li>
+  <li>Banginis “žaliems” (#Docker)
+    <ul><li>
+      Mažvydas Skuodas
+    </li></ul>
+  </li>
+</ul>

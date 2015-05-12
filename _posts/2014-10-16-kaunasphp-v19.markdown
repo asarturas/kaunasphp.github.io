@@ -1,0 +1,23 @@
+---
+layout: post
+name:  "KaunasPHP v.19 CodeWeek.eu Edition"
+time: "19:00"
+event_url: "https://www.facebook.com/events/787038488020617/"
+---
+<ul>
+  <li>Git pradmenys
+    <ul><li>
+      Donatas Mačiūnas
+    </li></ul>
+  </li>
+  <li>Design patterns and antipatterns for beginners
+    <ul><li>
+      Darius Kasperavičius
+    </li></ul>
+  </li>
+  <li>Composer
+    <ul><li>
+      Alfonsas Cirtautas
+    </li></ul>
+  </li>
+</ul>

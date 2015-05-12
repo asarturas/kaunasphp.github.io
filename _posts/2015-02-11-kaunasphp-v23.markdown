@@ -1,0 +1,18 @@
+---
+layout: post
+name:  "KaunasPHP v.23"
+time: "19:00"
+event_url: "https://www.facebook.com/events/1543990012526968/"
+---
+<ul>
+  <li>Projekto daugiakalbiškumas (translations)
+    <ul><li>
+      Darius Leskauskas
+    </li></ul>
+  </li>
+  <li>Using Capifony for Symfony apps deployment
+    <ul><li>
+      Žilvinas Kuusas
+    </li></ul>
+  </li>
+</ul>

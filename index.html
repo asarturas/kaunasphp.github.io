@@ -1,23 +1,86 @@
 ---
-layout: default
+layout: kaunasphp
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+{% for post in site.posts limit:1 %}
+<div class="jumbotron">
+  <h1>KaunasPHP v.26</h1>
+  <h3>
+    {{ post.date | date: "%Y-%m-%d" }} {{ post.time }},
+    @ <a href="{{ post.location_url }}">{{ post.location }}</a>
+  </h3>
+  <h3>Pranešimai:</h3>
+    {{ post.content }}
+  <p>
+    <br>
+    <a href="{{ post.event_url }}" class="btn btn-success">
+      <i class="glyphicon glyphicon-plane"></i> Registruotis į susitikimą
+    </a>
+  </p>
 </div>
+{% endfor %}
+<div class="row marketing">
+  <div class="col col-lg-8">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <i class="glyphicon glyphicon-calendar"></i>
+        Buvę susitikimai
+      </div>
+      <div class="panel-group" id="accordion2">
+        {% for post in site.posts %}
+          {% if post == site.posts.first %}
+          {% else %}
+            <div class="panel">
+              <div class="panel-heading">
+                <h4 class="panel-title">
+                  <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion2" href="#collapse{{ post.date | date: '%Y%m%d' }}">
+                    {{ post.name }} ({{ post.date | date: "%Y-%m-%d" }} {{ post.time }})
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse{{ post.date | date: '%Y%m%d' }}" class="panel-collapse collapse" style="height: auto;">
+                <div class="panel-body">
+                  {{ post.excerpt }}
+                  <a href="{{ post.event_url }}" target="_blank"><img src="media/img/facebook.png"></a>
+                  <a href="{{ post.github_url }}" target="_blank"><img src="media/img/github-icon.jpg"></a>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="col col-lg-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><i class="glyphicon glyphicon-exclamation-sign"></i> Susitikimų kalendorius</div>
+      <div class="panel-body">
+        <div class="text-center">
+          <a href="https://www.google.com/calendar/embed?src=h3achhhuga1du6r2l5hndoah48%40group.calendar.google.com&amp;ctz=Europe/Vilnius" target="_blank"><img width="60" src="media/img/calendar.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col col-lg-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><i class="glyphicon glyphicon-heart-empty"></i> Socializacija</div>
+      <div class="panel-body">
+        <a href="https://twitter.com/kaunasphp" target="_blank"><img src="media/img/twitter.png"></a>
+        <a href="https://www.facebook.com/groups/kaunasdev/" target="_blank"><img src="media/img/facebook.png"></a>
+        <a href="https://github.com/kaunasphp/kaunasphp-meetups/" target="_blank"><img src="media/img/github-icon.jpg"></a>
+      </div>
+    </div>
+  </div>
+  <div class="col col-lg-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading"><i class="glyphicon glyphicon-user"></i> Draugai</div>
+      <div class="panel-body">
+        <ul class="list-unstyled" "="">
+        <li><a href="http://www.vilniusphp.lt" target="_blank">VilniusPHP</a></li>
+        <li><a href="http://www.vilniusjs.lt" target="_blank">VilniusJS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+

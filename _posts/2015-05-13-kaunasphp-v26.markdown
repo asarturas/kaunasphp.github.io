@@ -1,0 +1,25 @@
+---
+layout: post
+name:  "KaunasPHP v.26"
+time: "19:00"
+location: "A. Jakšto g. 6, Kaunas (Kolpingo kolegija)"
+location_url: "http://goo.gl/M98mji"
+event_url: "https://www.facebook.com/events/380699738804969/"
+---
+<ul>
+  <li>From PHP to machine code
+    <ul><li>
+      Juozas Joe Kaziukėnas
+    </li></ul>
+  </li>
+  <li>Automated Infrastructure with Puppet, Ansible, Vagrant and Docker
+    <ul><li>
+      Laurynas Tretjakovas
+    </li></ul>
+  </li>
+</ul>
+
+<h4>
+  After Party vyks vietiniame kiemelyje kartu su susitikimo rėmėjų <a href="https://www.facebook.com/datadogdev">DATA DOG</a> kepamais dešrainiais ir gėrimais :)
+</h4>
+

@@ -1,0 +1,18 @@
+---
+layout: post
+name:  "KaunasPHP v.22"
+time: "19:00"
+event_url: "https://www.facebook.com/events/795304113861199/"
+---
+<ul>
+  <li>Symfony: reusing code on multiple projects
+    <ul><li>
+      Audrius Bugas
+    </li></ul>
+  </li>
+  <li>Keynotes from BuildStuff'14
+    <ul><li>
+      Marijus Kilmanas
+    </li></ul>
+  </li>
+</ul>

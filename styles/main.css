@@ -48,6 +48,29 @@ body {
     background-color: #fff;
 }
 
+.jumbotron > ul > li > ul, .jumbotron > ul > li > ul > li {
+    display: inline;
+    list-style-type: none;
+}
+
+.jumbotron > ul {
+    font-size: 16px;
+    text-align: left;
+}
+
+.jumbotron > ul > li {
+    list-style-type: decimal;
+}
+
+.jumbotron > ul > li > ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.jumbotron > ul > li > ul::before {
+    content: " - ";
+}
+
 /* Supporting marketing content */
 .marketing {
     margin: 40px 0;

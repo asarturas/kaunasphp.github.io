@@ -1,0 +1,18 @@
+---
+layout: post
+name:  "KaunasPHP v.20"
+time: "19:00"
+event_url: "https://www.facebook.com/events/787038488020617/"
+---
+<ul>
+  <li>ONGR.io
+    <ul><li>
+      Simonas Šerlinskas
+    </li></ul>
+  </li>
+  <li>You Don`t Know JavaScript!
+    <ul><li>
+      Aidas Klimas
+    </li></ul>
+  </li>
+</ul>
